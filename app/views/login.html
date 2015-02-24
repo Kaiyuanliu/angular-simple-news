@@ -1,0 +1,16 @@
+<div class="auth-forms">
+	<h2>Log In</h2>
+
+	<form role="form" ng-submit="vm.login()">
+		<p ng-show="vm.error" class="text-danger">{{ vm.error }}</p>
+		<div class="form-group">
+			<input type="email" class="form-control" ng-model="vm.user.email" placeholder="Email">
+		</div>
+		<div class="form-group">
+			<input type="password" class="form-control" ng-model="vm.user.password" placeholder="Password">
+		</div>
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary">Log in</button>
+		</div>
+	</form>
+</div>

@@ -1,0 +1,10 @@
+{
+  "firebase": "vivid-torch-8164",
+  "public": "./dist",
+  "rules": "security-rules.json",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

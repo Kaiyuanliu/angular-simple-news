@@ -4,6 +4,6 @@
 	angular
 		.module('angularSimpleNews')
 		.constant('firebaseConstants', {
-			'FIREBASE_URL': 'https://vivid-torch-8164.firebaseio.com/'
+			'FIREBASE_URL': '*Your firebase url*'
 		});
 })();

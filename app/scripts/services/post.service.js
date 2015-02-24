@@ -54,6 +54,5 @@
 		function comments(postID) {
 			return $firebase(ref.child('comments').child(postID)).$asArray();
 		}
-		// return $resource('https://vivid-torch-8164.firebaseio.com/posts/:id.json');
 	}
 })();

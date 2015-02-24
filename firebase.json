@@ -1,5 +1,5 @@
 {
-  "firebase": "vivid-torch-8164",
+  "firebase": "*Your firebase id*",
   "public": "./dist",
   "rules": "security-rules.json",
   "ignore": [

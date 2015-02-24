@@ -4,3 +4,4 @@ dist
 .sass-cache
 bower_components
 .editorconfig
+.DS_Store
